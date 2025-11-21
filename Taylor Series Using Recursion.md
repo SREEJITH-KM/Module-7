@@ -1,23 +1,34 @@
-# 📐 Taylor Series Using Recursion in Python
+EX: 7.3 TAYLOR SERIES
 
-## 🎯 AIM:
-To write a Python program to evaluate a **Taylor Series** using **recursion**, where values of `x` and `n` are taken from the user.
+###Aim: To python program to evaluate the series using recursion by collecting the x and n values from the user.
+### ALGORITHM:
+STEP 1: Start.
 
-## 🧠 ALGORITHM:
+STEP 2: Create a variable x and n.
 
-1. **Start**
-2. Create variables `x` and `n`
-3. Get values for `x` and `n` from the user
-4. Define a recursive function `series(x, n)`
-   - **Base case:** If `n == 0`, return 1
-   - **Recursive case:** Return `x**n / n + series(x, n-1)`
-5. Print the result
-6. **Stop**
+STEP 3: Get the values of x and n from user.
 
-## 💻 PROGRAM:
+STEP 4: Create a base case and recursive case to calculate the result.
 
-ADD CODE HERE
+STEP 5: Print the result.
 
-## OUTPUT
+STEP 6: Stop.
+### Program:
+```
+reg no:212223070004
+name:dhushanth.km
+def series(x,n):
+         if n==0:
+            return 1
+         else:
+            return x**n/n+series(x,n-1)
+x = int(input())
+n = int(input())
+print(series(x,n))
+```
+### Output:
+![image](https://github.com/user-attachments/assets/1a43172d-a781-4ed3-a521-0e2442554b40)
 
-## RESULT
+
+ 
+### Result: Thus, the given program is implemented and executed successfully .
